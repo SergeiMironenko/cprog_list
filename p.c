@@ -268,7 +268,7 @@ void menu(char *ch, Node *head)
             *ch = '\n';
             break;
         case '3':
-            printf("Формат ввода: <позиция> <позиция>\n> ");
+            printf("Формат ввода: <позиция> <значение>\n> ");
             scanf("%d %d%c", &pos, &val, ch);
             if (*ch == '\n')
             {
